@@ -3,6 +3,7 @@ import { Subscription, UserDetails } from "@/types";
 import { createContext, useContext, useEffect, useState } from "react";
 import { useSessionContext, useUser as useSupaUser } from "@supabase/auth-helpers-react";
 
+
 type UserContextType = {
     accessToken: string | null;
     user: User | null;

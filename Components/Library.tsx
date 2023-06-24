@@ -2,8 +2,10 @@
 import React from 'react'
 import { TbPlaylist } from 'react-icons/tb';
 import { AiOutlinePlus} from 'react-icons/ai';
+import useAuthModal from '@/Hooks/useAuthModal';
 
 const Library = ({}) => {
+    const authModal = useAuthModal();
     const onClick =()=>{
         //handle upload later
     };
